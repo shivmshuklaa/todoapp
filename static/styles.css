@@ -1,0 +1,17 @@
+/* body {
+    position: relative;
+} */
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    width:90%;
+    border: groove 2px whitesmoke;
+}
+
+.disabled-link{
+    cursor: default;
+    pointer-events: none; 
+}
